@@ -7,6 +7,27 @@ img {
   height: 100px;
 }
 
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.plants {
+  display: flex;
+  gap: 52px;
+}
+
+.wrapping {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
 .title {
   font-size: 36px;
   font-weight: 900;
